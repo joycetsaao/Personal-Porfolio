@@ -193,6 +193,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
 }
 
 .resume-btn, .contact-btn {
