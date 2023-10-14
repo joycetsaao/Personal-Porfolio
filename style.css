@@ -103,6 +103,7 @@ a:hover {
     top: 100%;
     right: 0;
     background-color: white;
+    opacity: 0.75;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -126,7 +127,6 @@ a:hover {
 .menu-links.open {
     max-height: 300px;
 }
-
 
 .hamburger-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 5px);
@@ -152,4 +152,85 @@ a:hover {
     transform: none;
 }
 
-/* Sections */
+/* Socials */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* profile section */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.profile__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
+.section__text {
+    align-self: center;
+    text-align: center ;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-btn, .contact-btn {
+    width: auto;
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px; 
+  }
+  
+.resume-btn:hover, .contact-btn:hover {
+    background-color: #ff3399; 
+}
+  
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-btn ,.github-btn{
+    width: 50px; 
+    height: 50px; 
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    font-size: 48px; 
+    border: none; 
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.linkedin-btn:hover, .github-btn:hover {
+    background-color: pink;
+}

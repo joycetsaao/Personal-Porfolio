@@ -11,6 +11,7 @@ EMAIL: jwtsao@uci.edu
   <meta name="Joyce Tsao" content="My personal portfolio website">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="responsive.css">
+   <script src="https://kit.fontawesome.com/13013455ac.js" crossorigin="anonymous"></script>
   <title>Joyce's Portfolio</title>
 </head>
 <body>
@@ -42,10 +43,53 @@ EMAIL: jwtsao@uci.edu
     </div>
   </nav>
   <section id="profile">
-    <div class="section__pic-container">
-      
+    <div class="profile__pic-container">
+      <img src="profile_pic.jpg" alt="Profile picture">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1"> Hello, I'm</p>
+      <h1 class="title">Joyce Tsao</h1>
+      <p class="section__text__p2">Computer Science Student</p>
+      <div class="btn-container">
+        <button 
+          class="resume-btn" 
+          onclick="window.open('./Joyce_Tsao_Resume.pdf')"
+        >Resume</button>
+        <button 
+          class="contact-btn" 
+          onclick="location.href='./#contact'"
+        >Contact</button>
+      </div>
+      <div id="socials-container">
+        <button 
+          class="linkedin-btn"
+          onclick="location.href='https://www.linkedin.com/in/joyce-tsao/'"
+        ><i class="fa-brands fa-linkedin"></i></button>
+        <button 
+          class="github-btn"
+          onclick="location.href='https://github.com/joycetsaao'"
+        ><i class="fa-brands fa-github"></i></button>
+        
+      </div>
     </div>
   </section>
   <script src="script.js"></script>
 </body>
-</html>
+</html> 
+
+
+
+
+
+<!-- <img 
+  src="linkedin-logo.webp" 
+  alt="My LinkedIn Profile"
+  class="icon" 
+  onclick="location.href='https://www.linkedin.com/in/joyce-tsao/'"
+>
+<img 
+  src="github-logo.png" 
+  alt="My Github Profile"
+  class="icon" 
+  onclick="location.href='https://github.com/joycetsaao'"
+> -->
