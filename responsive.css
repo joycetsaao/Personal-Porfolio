@@ -10,12 +10,12 @@
 }
 
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
     .article-container {
         flex-direction: column; /* Change to a column layout on smaller screens */
-    }
+    /* }
 
     .article-container article {
         max-width: 100%; /* Take up the full width on smaller screens */
-    }
-}
+    /* }
+/* } */ 
