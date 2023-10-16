@@ -36,13 +36,13 @@ EMAIL: jwtsao@uci.edu
       </div>
       <div class="menu-links">
         <li><a href="#about" onClick="toggleMenu()">About</a></li>
-        <li><a href="#projects" onClick="toggleMenu()">Projects</a></li>
         <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onClick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
       </div>
     </div>
   </nav>
-  <section id="profile">
+  <section id="home">
     <div class="profile__pic-container">
       <img src="./attachments/profile_pic.jpg" alt="Profile picture">
     </div>
@@ -71,121 +71,60 @@ EMAIL: jwtsao@uci.edu
         ><i class="fa-brands fa-github"></i></button>
       </div>
     </div>
+    <button class="arrow-icon" onclick="location.href='#about'">
+      <i class="fa-solid fa-arrow-down"></i>
+    </button>
   </section>
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
       <div class="section__pic-container">
-        <img 
-          src="./attachments/pompom.png" 
-          alt="profile pic"
-          class="about-pic">
+        <img
+          src=""
+          alt="Profile picture"
+          class="about-pic"
+        />
       </div>
       <div class="about-details-container">
         <div class="about-containers">
-          <div class="details-container">
+          <!-- <div class="details-container">
             <i class="fa-solid fa-laptop-code"></i>
             <h3>Experience</h3>
-            <p>lalala <br>~experience~</p>
-          </div>
+            <p>2+ hahha <br />omg Development</p>
+          </div> -->
           <div class="details-container">
             <i class="fa-solid fa-graduation-cap"></i>
             <h3>Education</h3>
-            <p>B.S. Computer Science<br>University of California, Irvine</p>
+            <p>B.S. Computer Science<br><em>University of California, Irvine</em></p>
           </div>
         </div>
         <div class="text-container">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores nostrum iste ratione vero debitis recusandae illum ut sint animi eligendi commodi delectus dolore explicabo. Sequi ipsa facere quod dicta.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+            reprehenderit et laborum, rem, dolore eum quod voluptate
+            exercitationem nobis, nihil esse debitis maxime facere minus sint
+            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+            reiciendis ea magnam? Nulla, impedit fuga!
+          </p>
         </div>
       </div>
     </div>
-    <button class="down-arrow" onclick="location.href='#projects'">
+    <button class="arrow-icon" onclick="location.href='#experience'">
       <i class="fa-solid fa-arrow-down"></i>
     </button>
   </section>
-
-
-
-
-  <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-containers">
-          <div class="article-container">
-  <!-- <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
-    <div class="project-details-container">
-      <div class="project-containers"> -->
-        <div class="projects-details-container color-container">
-          <div class="project-container">
-          </div>
-          <h2 class="project-title">Journal Jams App</h2>
-          <em>Typescript, HTML/CSS, Firebase, Ionic, React Native</em>
-          <p>Full-stack mobile application capable of taking in user text as journal entries, analyzing the text for an emotion, and using the emotion to suggest song recommendations through the Spotify API.</p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-          </div>
-        </div>
-        <div class="projects-details-container color-container">
-          <div class="project-container">
-          </div>
-          <h2 class="project-title">Web Crawler and Search Engine</h2>
-          <em>Python, Tkinter, Git</em>
-          <p>Crawled and collected data from a static corpus of websites, then implemented data storage in JSON files for efficient retrieval and processing. I developed a custom search engine from generated results, and utilized a cosine similarity ranking system for accurate and relevant search result</p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-          </div>
-        </div>
-        <div class="projects-details-container color-container">
-          <div class="project-container">
-          </div>
-          <h2 class="project-title">C++ Text Editor</h2>
-          <em>C++</em>
-          <p>Developed a custom text editor using C++ with a focus on providing essential text editing features, including undo, redo, backspace, and navigation using arrow keys (up, down, side).</p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
-            >
-              Github
-            </button>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    <button class="down-arrow" onclick="location.href='#experience'">
-      <i class="fa-solid fa-arrow-down"></i>
-    </button>
-  </section>
-
-
-
-
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
       <div class="about-containers">
-        <div class="details-containers">
+        <div class="details-container">
+          <h4 class="experience-sub-title">Languages<br><i class="fa-solid fa-code"></i></h4>
           <div class="article-container">
-            <article class="languages-container">
+            <article>
               <div>
-                <h4>Languages<br><i class="fa-solid fa-code"></i></h4>
                 <p>Python</p>
                 <p>C/C++</p>
                 <p>Java</p>
@@ -194,9 +133,13 @@ EMAIL: jwtsao@uci.edu
                 <p>Javascript</p>
               </div>
             </article>
-            <article class="tools-container">
+          </div>
+        </div>
+        <div class="details-container">
+          <h4 class="experience-sub-title">Software<br><i class="fa-solid fa-laptop"></i></h4>
+          <div class="article-container">
+            <article>
               <div>
-                <h4>Software<br><i class="fa-solid fa-laptop"></i></h4>
                 <p>Git</p>
                 <p>VS Code</p>
                 <p>Visual Studio</p>
@@ -205,9 +148,13 @@ EMAIL: jwtsao@uci.edu
                 <p>JupyterLab</p>
               </div>
             </article>
-            <article class="databases-container">
+          </div>
+        </div>
+        <div class="details-container">
+          <h4 class="experience-sub-title">Databases<br><i class="fa-solid fa-database"></i></h4>
+          <div class="article-container">
+            <article>
               <div>
-                <h4>Databases<br><i class="fa-solid fa-database"></i></h4>
                 <p>MySQL</p>
                 <p>PostgreSQL</p>
                 <p>Cassandra</p>
@@ -219,19 +166,77 @@ EMAIL: jwtsao@uci.edu
         </div>
       </div>
     </div>
-    <button class="down-arrow" onclick="location.href='#contact'">
+    <button class="arrow-icon" onclick="location.href='#projects'">
       <i class="fa-solid fa-arrow-down"></i>
     </button>
   </section>
-  
-
-
-
-
-
-
-
-  
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-containers">
+          <div class="article-container">
+            <div class="details-container projects-details-container">
+              <div class="project-container">
+              </div>
+              <h2 class="project-title">Journal Jams App</h2>
+              <em>Typescript, HTML/CSS, Firebase, Ionic, React Native</em>
+              <p>Full-stack mobile application capable of taking in user text as journal entries, analyzing the text for an emotion, and suggest song recommendations using the Spotify API.</p>
+              <div class="project-btn-container">
+                <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+                </button>
+              </div>
+            </div>
+            <div class="details-container projects-details-container">
+              <div class="project-container">
+              </div>
+              <h2 class="project-title">Web Crawler & Search Engine</h2>
+              <em>Python, Tkinter, Git</em>
+              <p>Crawled and collected data from a static corpus of websites, implemented a custom search engine from generated results, and utilized a cosine similarity ranking system for accurate and relevant search result</p>
+              <div class="project-btn-container">
+                <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+                </button>
+              </div>
+            </div>
+            <div class="details-container projects-details-container">
+              <div class="project-container">
+              </div>
+              <h2 class="project-title">C++ Text Editor</h2>
+              <em>C++</em>
+              <p>Developed a custom text editor using C++ with a focus on providing essential text editing features, including undo, redo, backspace, and navigation using arrow keys (up, down, side).</p>
+              <div class="project-btn-container">
+                <button class="project-btn">
+                  <i class="fa-brands fa-github"></i>
+                </button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <button class="arrow-icon" onclick="location.href='#contact'">
+      <i class="fa-solid fa-arrow-down"></i>
+    </button>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get In Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-1">
+      <div class="contact-info-container">
+        <i class="fa-solid fa-envelope" class="contact-icon email-icon"></i>
+        <p><a href="joycewtsao@gmail.com">joycewtsao@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <i class="fa-brands fa-linkedin" class="contact-icon linkedin-icon"></i>
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+    <!-- <button class="arrow-icon" onclick="location.href='#contact'">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button> -->
+  </section>
   <script src="script.js"></script>
 </body>
 </html> 

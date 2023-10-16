@@ -23,15 +23,21 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- I have 2 images with descriptive alt attributes.
+- Appropriate headings, subheadings, and paragraph text.
+- Links to my LinkedIn and Github profile.
+- There are 4 pages within the site with appropriate navigation.
+- Features icons from Font Awesome.
 
 
 (b) CSS features
-
+- Padding is added throughout the site.
+- Text color is also modified between black and gray in order to draw attention to certain text.
+- Added Google Font in Poppins to the site.
 
 
 (c) Advanced features
-
+- There is a navigation bar for larger screens, and an expandable hamburger style menu for smaller screens.
 
 
 3. How long, in hours, did it take you to complete this assignment?
@@ -39,11 +45,25 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
+https://fontawesome.com/
+https://fonts.google.com/
+https://coolors.co/
+https://www.w3schools.com/css/
+https://www.w3schools.com/css/css_navbar.asp
+https://www.youtube.com/watch?v=flItyHiDm7E
+https://www.youtube.com/watch?v=ldwlOzRvYOU&t=5796s
+https://www.youtube.com/watch?v=oLgtucwjVII
+https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+https://alvarotrigo.com/blog/hamburger-menu-css/
+https://www.w3schools.com/css/css_border.asp
+https://www.w3schools.com/css/css3_gradients.asp
+https://css.glass/
+
 
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+N/A
 
 
 6. Is there anything special we need to know in order to run your code?
