@@ -194,9 +194,6 @@ section {
 
 .section__text__p1 {
     text-align: center;
-}
-
-.section__text__p1 {
     font-size: 1.75;
     margin-bottom: 0.5rem;
 }
@@ -343,7 +340,6 @@ section {
     height: 3rem;
     font-size: 2rem;
     background-color: white;
-    /* display: flex; */
 }
 
 .down-arrow:hover {
@@ -354,13 +350,24 @@ section {
 
 #experience {
     position: relative;
+    padding-bottom: 25%;
 }
 
 .experience-details-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2.5rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
 } 
+
+.details-container {
+    display: flex;
+}
 
 .article-container {
     display: flex;
@@ -371,11 +378,16 @@ section {
     justify-content: space-around;
 }
 
-article {
+.article {
+    width: 100%;
     display: flex;
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
+    /* display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem; */
 }
 
 article i {
@@ -385,7 +397,7 @@ article i {
 }
 
 .article-container article {
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
     /* border: lightgrey 0.1rem solid; */
     background-color: rgb(229, 239, 251);
@@ -397,7 +409,6 @@ article i {
     margin-bottom: auto; 
 }
 
-
 .article-container p {
     text-align: center;
 }
@@ -405,3 +416,11 @@ article i {
 .article-container h4 {
     text-align: center;
 }
+
+/* Projects Section */
+
+#projects {
+    position: relative;
+    margin-top: 20px;
+}
+
