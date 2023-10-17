@@ -42,6 +42,7 @@ EMAIL: jwtsao@uci.edu
       </div>
     </div>
   </nav>
+
   <section id="home">
     <div class="profile__pic-container">
       <img src="./attachments/profile_pic.jpg" alt="Profile picture">
@@ -70,11 +71,15 @@ EMAIL: jwtsao@uci.edu
           onclick="location.href='https://github.com/joycetsaao'"
         ><em class="fa-brands fa-github"></em></button>
       </div>
+      <!-- <button class="arrow-icon" onclick="location.href='#about'">
+        <em class="fa-solid fa-arrow-down"></em>
+      </button> -->
     </div>
-    <button class="arrow-icon" onclick="location.href='#about'">
-      <em class="fa-solid fa-arrow-down"></em>
-    </button>
+    
   </section>
+  <div class="scroll-div"><p>Scroll for More</p>
+      <em class="fa-solid fa-angles-down"></em>
+    </div>
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
@@ -181,7 +186,8 @@ EMAIL: jwtsao@uci.edu
               <h2 class="project-title">Journal Jams App</h2>
               <em>Typescript, HTML/CSS, Firebase, Ionic, React Native</em>
               <p>Full-stack mobile application capable of taking in user text as journal entries, analyzing the text for an emotion, and suggest song recommendations using the Spotify API.</p>
-              <div class="project-btn-container">
+              <div class="project-btn-container" 
+              onclick="location.href='https://github.com/joycetsaao/web-crawler'">
                 <button class="project-btn">
                   <em class="fa-brands fa-github"></em>
                 </button>
@@ -194,7 +200,8 @@ EMAIL: jwtsao@uci.edu
               <em>Python, Tkinter, Git</em>
               <p>Crawled and collected data from a static corpus of websites, implemented a custom search engine from generated results, and utilized a cosine similarity ranking system for accurate and relevant search result</p>
               <div class="project-btn-container">
-                <button class="project-btn">
+                <button class="project-btn" 
+                onclick="location.href='https://github.com/joycetsaao/web-crawler'">
                   <em class="fa-brands fa-github"></em>
                 </button>
               </div>
@@ -205,7 +212,8 @@ EMAIL: jwtsao@uci.edu
               <h2 class="project-title">C++ Text Editor</h2>
               <em>C++</em>
               <p>Developed a custom text editor using C++ with a focus on providing essential text editing features, including undo, redo, backspace, and navigation using arrow keys (up, down, side).</p>
-              <div class="project-btn-container">
+              <div class="project-btn-container"
+              onclick="location.href='https://github.com/joycetsaao/web-crawler'">
                 <button class="project-btn">
                   <em class="fa-brands fa-github"></em>
                 </button>
@@ -240,12 +248,12 @@ EMAIL: jwtsao@uci.edu
         <div class="name-div">
           <label for="full-name">Name:</label>
           <input type="text" name="name" id="full-name" 
-          placeholder=" First and Last" required="">
+          placeholder="" required="">
         </div>
         <div class="email-div">
           <label for="email-address">Email:</label>
           <input type="email" name="_replyto" id="email-address" 
-          placeholder=" email@company.com" required="">
+          placeholder="" required="">
         </div>
         <div class="msg-div">
           <label for="message">Message:<br></label>
