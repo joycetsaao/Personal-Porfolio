@@ -62,6 +62,7 @@ https://css.glass/
 https://www.w3schools.com/html/html_forms.asp
 https://formspree.io/
 https://www.makeuseof.com/formspree-create-host-contact-form/
+https://www.w3schools.com/css/css3_transitions.asp
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
