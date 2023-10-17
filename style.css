@@ -48,6 +48,10 @@ nav {
     font-size: 1.25rem;
 }
 
+.nav-links{
+    color: yellow;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -59,7 +63,7 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     text-decoration-color: #c065b156;
-    box-shadow: 0 2px 20px rgba(14, 13, 13, 0.036);
+    box-shadow: 0 2px 20px rgba(14, 13, 13, 0);
     border-radius: 2rem;
 }
 
