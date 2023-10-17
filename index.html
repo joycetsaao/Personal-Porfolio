@@ -42,6 +42,8 @@ EMAIL: jwtsao@uci.edu
       </div>
     </div>
   </nav>
+
+
   <section id="home">
     <div class="profile__pic-container">
       <img src="./attachments/profile_pic.jpg" alt="Profile picture">
@@ -75,24 +77,26 @@ EMAIL: jwtsao@uci.edu
       <i class="fa-solid fa-arrow-down"></i>
     </button>
   </section>
+
+
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
       <div class="section__pic-container">
         <img
-          src=""
+          src="./attachments/pompom.png"
           alt="Profile picture"
           class="about-pic"
         />
+        <!-- <img
+          src="./attachments/selfie_pic.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        /> -->
       </div>
       <div class="about-details-container">
         <div class="about-containers">
-          <!-- <div class="details-container">
-            <i class="fa-solid fa-laptop-code"></i>
-            <h3>Experience</h3>
-            <p>2+ hahha <br />omg Development</p>
-          </div> -->
           <div class="details-container">
             <i class="fa-solid fa-graduation-cap"></i>
             <h3>Education</h3>
@@ -101,12 +105,10 @@ EMAIL: jwtsao@uci.edu
         </div>
         <div class="text-container">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-            reprehenderit et laborum, rem, dolore eum quod voluptate
-            exercitationem nobis, nihil esse debitis maxime facere minus sint
-            delectus velit in eos quo officiis explicabo deleniti dignissimos.
-            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-            reiciendis ea magnam? Nulla, impedit fuga!
+            Hello! I am currently a senior attending UCI studying Computer Science 
+            with a specialization in information! I'm interested in front-end development.
+            I like to watch anime and take walks in my free time. 
+            I also really like to experiment with cooking and baking.
           </p>
         </div>
       </div>
@@ -115,6 +117,46 @@ EMAIL: jwtsao@uci.edu
       <i class="fa-solid fa-arrow-down"></i>
     </button>
   </section>
+
+
+
+
+
+ <!-- <section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="section-container">
+    <div class="section__pic-container">
+      <img 
+        src="./attachments/selfie_pic.jpg" 
+        alt="profile pic"
+        class="about-pic">
+    </div>
+    <div class="about-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Experience</h3>
+          <p>lalala <br>~experience~</p>
+        </div>
+        <div class="details-container">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <h3>Education</h3>
+          <p>B.S. Computer Science<br>University of California, Irvine</p>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores nostrum iste ratione vero debitis recusandae illum ut sint animi eligendi commodi delectus dolore explicabo. Sequi ipsa facere quod dicta.</p>
+      </div>
+    </div>
+  </div>
+  <button class="down-arrow" onclick="location.href='./#experience'">
+    <i class="fa-solid fa-arrow-down"></i>
+  </button>
+</section> -->
+
+
+  
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -230,13 +272,47 @@ EMAIL: jwtsao@uci.edu
       </div>
       <div class="contact-info-container">
         <i class="fa-brands fa-linkedin" class="contact-icon linkedin-icon"></i>
-        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/joyce-tsao/">LinkedIn</a></p>
       </div>
     </div>
+    <form
+      action="https://formspree.io/f/mdoryybl"
+      method="POST"
+      class="contact-form"
+    >
+      <fieldset id="form-inputs">
+        <div class="name-div">
+          <label for="full-name">Full Name:</label>
+          <input type="text" name="name" id="full-name" 
+          placeholder=" First and Last" required="">
+        </div>
+        <div class="email-div">
+          <label for="email-address">Email Address:</label>
+          <input type="email" name="_replyto" id="email-address" 
+          placeholder=" email@company.com" required="">
+        </div>
+        <div class="msg-div">
+          <label for="message">Message:<br></label>
+          <textarea rows="5" name="message" id="message" 
+          placeholder="Send a message here!" required=""></textarea>
+        </div>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        <div class="submit-div">
+          <input type="submit" value="Submit" class="submit-btn">
+        </div>
+      </fieldset>
+    </form>
     <!-- <button class="arrow-icon" onclick="location.href='#contact'">
       <i class="fa-solid fa-arrow-up"></i>
     </button> -->
   </section>
+
+
+
+
+
+
+
   <script src="script.js"></script>
 </body>
 </html> 

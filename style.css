@@ -11,7 +11,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    /* background: #fcf9fa; */
     background: linear-gradient(60deg, 
     #f9d9f0,#c9b2c5,#afb6e5,
     #e8d6ec,#c7c2f964 , #b0a9f2);
@@ -98,7 +97,6 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    /* background-color: #bd8397; */
     background-color: #615e7b;
     transition: all 0.3 ease-in-out;
 }
@@ -121,8 +119,6 @@ a:hover {
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
-    /* background-color: #fcf9fa; */
-    /* background-color: #faf8f3; */
 }
 
 .menu-links li {
@@ -134,9 +130,6 @@ a:hover {
     color: #c065b1;
     border: #c065b1 0.1vh solid;
     border-radius: 2rem;
-    /* text-decoration: underline;
-    text-underline-offset: 0.5rem;
-    text-decoration-color: lightgray; */
 }
 
 .menu-links.open {
@@ -234,30 +227,28 @@ section {
     gap: 1rem;
     margin-right: 1rem;
     margin-left: 1.4rem;
-    /* align-items: center;
-    padding: 10%; */
 }
 
 .resume-btn, 
 .contact-btn {
     width: auto;
     padding: 10px 20px;
-    /* background-color: pink; */
-    background-color: #c065b1;
-    color: white;
     font-size: 15px;
-    border: none;
-    /* border: rgb(242, 184, 194) 0.1rem solid; */
+    background-color: #e8d6ec00;
     border-radius: 5px;
     text-align: center;
     margin-right: 10px;
     transition: all 300ms ease;
+    background: #f491b448;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(173, 172, 181, 0.36);
 }
   
 .resume-btn:hover, 
 .contact-btn:hover {
-    /* background-color: deeppink;  */
-    background-color: #afb6e5;
+    background-color: rgb(241, 128, 207);
     cursor: pointer ;
 }
   
@@ -276,7 +267,6 @@ section {
 .github-btn{
     width: 50px; 
     height: 50px; 
-    /* background-color: #fcf9fa; */
     background-color: #e8d6ec00;
     font-size: 48px; 
     border: none; 
@@ -288,8 +278,6 @@ section {
 .linkedin-btn:hover, 
 .github-btn:hover {
     cursor: pointer;
-    /* border: #bd8397 0.1vh solid;
-    border-radius: 0.5rem; */
 }
 
 
@@ -330,13 +318,6 @@ section {
     padding: 1.5rem;
     flex: 1;
     text-align: center;
-    /* background: rgb(239, 229, 225);
-    border-radius: 2rem;
-    border: 0.1vh solid;
-    border-color: #bd8397;
-    text-align: center;
-    background: rgba(147, 143, 202, 0.47); */
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.47);
     border-radius: 16px;
     box-shadow: 0 30px 30px rgba(14, 13, 13, 0.1);
@@ -355,6 +336,18 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+.section__pic-container img {
+    display: flex;
+    width: 20rem;
+    height: 23rem;
+    /* height: 20rem; */
+    /* width: auto;
+    height: auto; */
+}
+
+
+
 
 /* Experience Section */
 
@@ -421,7 +414,6 @@ article .icon {
     margin-top: 2rem;
     margin-bottom: 4rem;
     font-size: 0.9rem;
-    /* font-size: 1rem; */
 }
  
 .project-btn-container {
@@ -484,6 +476,86 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 }
+
+/* Formspree Contact Form */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    border: none; 
+    margin-bottom: 3rem;  
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 30px 30px rgba(14, 13, 13, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(173, 172, 181, 0.36);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid var(--mid-gray-color);
+    border-radius: 1rem;
+    width: 15rem;
+}
+
+
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid var(--mid-gray-color);
+    border-radius: 1rem;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 25rem;
+}
+
+.submit-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.submit-btn {
+    /* display: flex;
+    background-color: #afb6e501;
+    border: #676391 0.1vh solid;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 5rem;
+    justify-content: center; */
+    width: auto;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #e8d6ec00;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    transition: all 300ms ease;
+    background: #f491b448;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(173, 172, 181, 0.36);
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(241, 128, 207);
+}
+
+/* Down Arrow */
 
 .arrow-icon {
     position: absolute;

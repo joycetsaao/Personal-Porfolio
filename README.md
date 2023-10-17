@@ -12,11 +12,11 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */15
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */2 Advanced feature
-- */3 Responsive layout
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 2/2 Advanced feature
+- 3/3 Responsive layout
 - */1 Passes validation checks
 - */2 Embraces spirit of the assignment
 
@@ -38,9 +38,10 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (c) Advanced features
 - There is a navigation bar for larger screens, and an expandable hamburger style menu for smaller screens.
-
+- I have a contact form using Formspree. 
 
 3. How long, in hours, did it take you to complete this assignment?
+Around 30 hours.
 
 
 
@@ -58,8 +59,9 @@ https://alvarotrigo.com/blog/hamburger-menu-css/
 https://www.w3schools.com/css/css_border.asp
 https://www.w3schools.com/css/css3_gradients.asp
 https://css.glass/
-
-
+https://www.w3schools.com/html/html_forms.asp
+https://formspree.io/
+https://www.makeuseof.com/formspree-create-host-contact-form/
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
